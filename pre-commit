@@ -7,4 +7,3 @@ npm run security-check
 npm run lint
 # Check for secrets
 npm run secret-scan
-hrllo
