@@ -1,0 +1,12 @@
+# Security-sensitive files
+.env
+*.pem
+*.key
+secrets/
+credentials/
+# Build artifacts
+node_modules/
+dist/
+build/
+# Logs
+*.log

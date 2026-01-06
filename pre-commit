@@ -1,0 +1,9 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+ 
+# Run security checks
+npm run security-check
+# Run linting
+npm run lint
+# Check for secrets
+npm run secret-scan
